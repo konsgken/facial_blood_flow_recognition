@@ -1,0 +1,25 @@
+# Folders #
+.idea
+
+# Binary files #
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.asv
+*.mat
+*.mp4
+*.pkl
+*.json
+*.pickle
+
+# Compressed files #
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+*.ZIP
