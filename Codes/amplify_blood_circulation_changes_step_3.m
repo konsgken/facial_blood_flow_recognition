@@ -10,7 +10,7 @@ clc
 % Define video paths
 %video_path = 'Datasets\June2019\Cropped_Videos\';
 %video_path = 'Datasets\June2019\Three_Videos_Out\Attenuated_Videos\Forehead\';
-video_path = 'C:\Users\konsg\OneDrive\facial_blood_flow_recognition\Datasets\June2019\Three_Videos_Out\Attenuated_Videos\Forehead\';
+video_path = 'C:\Democritus University of Thrace (DUTh)\OneDrive\facial_blood_flow_recognition\Datasets\June2019\Three_Videos_Out\Attenuated_Videos\Forehead\';
 %subfolders = dir(video_path);
 day_subfolders = ['Day1\'; 'Day2\'; 'Day3\'];
 day_len = size(day_subfolders, 1);
@@ -21,7 +21,7 @@ person_len = size(person_subfolders, 1);
 %out_video_path = 'Datasets\June2019\Amplified_Blood_Flow_Without_Attenuation\';
 % out_video_path = 'Datasets\June2019\Three_Videos_Out\Amplified_Blood_Flow_After_Attenuation\Forehead\';
 %out_video_path = 'Datasets\June2019\Three_Videos_Out\Amplified_Only_Blood_Flow_After_Attenuation\Forehead\';
-out_video_path = 'C:\Users\konsg\OneDrive\facial_blood_flow_recognition\Datasets\June2019\Three_Videos_Out\Amplified_Only_Blood_Flow_After_Attenuation\Forehead\';
+out_video_path = 'C:\Democritus University of Thrace (DUTh)\OneDrive\facial_blood_flow_recognition\Datasets\June2019\Three_Videos_Out\Amplified_Only_Blood_Flow_After_Attenuation\Forehead\';
 
 alpha = 120;
 level = 4;

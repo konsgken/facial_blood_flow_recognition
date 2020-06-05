@@ -6,16 +6,16 @@ clc
 % This code detects the face (bounding box) at the 1st video frame and crops
 % the frame in order to keep only the info needed (the face) using the
 % coordinates of extracted bounding box
-
+addpath(genpath(pwd));
 % Set directory
-cd 'C:\Users\konsg\OneDrive\facial_blood_flow_recognition\AAM\face-release1.0-basic\';
+cd 'C:\Democritus University of Thrace (DUTh)\OneDrive\facial_blood_flow_recognition\AAM\face-release1.0-basic\';
 
 % Compile library
 disp('Compiling library. Please, wait...');
 compile; 
 
-addpath(genpath('C:\Users\konsg\OneDrive\facial_blood_flow_recognition\'));
-addpath(genpath('C:\Users\konsg\Documents\GIT\facial_blood_flow_recognition'));
+addpath(genpath('C:\Democritus University of Thrace (DUTh)\OneDrive\facial_blood_flow_recognition\'));
+
 % Load model for face detection
 load face_p99.mat; % model
 

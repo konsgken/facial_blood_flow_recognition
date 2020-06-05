@@ -8,9 +8,9 @@ clc
 % Define video paths
 %video_path = 'Datasets\June2019\Cropped_Videos\';
 %video_path = 'Datasets\June2019\Three_Videos_Out\Amplified_Only_Blood_Flow_After_Attenuation\Forehead\';
-image1_path = 'C:\Users\konsg\OneDrive\facial_blood_flow_recognition\Datasets\June2019\Three_Videos_Out\Amplified_Only_Blood_Flow_After_Attenuation\DCT_cube_forehead\';
-image2_path = 'C:\Users\konsg\OneDrive\facial_blood_flow_recognition\Datasets\June2019\Three_Videos_Out\Amplified_Only_Blood_Flow_After_Attenuation\DCT_cube_left_cheeck\';
-image3_path = 'C:\Users\konsg\OneDrive\facial_blood_flow_recognition\Datasets\June2019\Three_Videos_Out\Amplified_Only_Blood_Flow_After_Attenuation\DCT_cube_right_cheeck\';
+image1_path = 'C:\Democritus University of Thrace (DUTh)\OneDrive\facial_blood_flow_recognition\Datasets\June2019\Three_Videos_Out\Amplified_Only_Blood_Flow_After_Attenuation\DCT_cube_forehead\';
+image2_path = 'C:\Democritus University of Thrace (DUTh)\OneDrive\facial_blood_flow_recognition\Datasets\June2019\Three_Videos_Out\Amplified_Only_Blood_Flow_After_Attenuation\DCT_cube_left_cheeck\';
+image3_path = 'C:\Democritus University of Thrace (DUTh)\OneDrive\facial_blood_flow_recognition\Datasets\June2019\Three_Videos_Out\Amplified_Only_Blood_Flow_After_Attenuation\DCT_cube_right_cheeck\';
 %subfolders = dir(video_path);
 day_subfolders = ['Day1\'; 'Day2\'; 'Day3\'];
 day_len = size(day_subfolders, 1);
@@ -21,7 +21,7 @@ person_len = size(person_subfolders, 1);
 %out_video_path = 'Datasets\June2019\Amplified_Blood_Flow_Without_Attenuation\';
 % out_video_path = 'Datasets\June2019\Three_Videos_Out\Amplified_Blood_Flow_After_Attenuation\Forehead\';
 %out_path = 'Datasets\June2019\Three_Videos_Out\Amplified_Only_Blood_Flow_After_Attenuation\Forehead_Avg_Images_RGB\';
-out_path = 'C:\Users\konsg\OneDrive\facial_blood_flow_recognition\Datasets\June2019\Three_Videos_Out\Amplified_Only_Blood_Flow_After_Attenuation\DCT_cube_together\';
+out_path = 'C:\Democritus University of Thrace (DUTh)\OneDrive\facial_blood_flow_recognition\Datasets\June2019\Three_Videos_Out\Amplified_Only_Blood_Flow_After_Attenuation\DCT_cube_together\';
 
 alpha = 120;
 level = 4;
