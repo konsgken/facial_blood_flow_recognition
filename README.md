@@ -7,3 +7,5 @@ facial motion amplification. Unlike traditional facial biometric traits, the new
 such as the eyes or nose, that are critical in common facial biometric algorithms. In this paper we propose the formation of a spatiotemporal 
 facial blood flow map, constructed using small motion amplification. Experiments show that the proposed approach provides significant discriminatory capacity
 over different training and testing days and can be potentially used in situations where traditional facial biometrics may not be applicable.
+
+Please refer to our paper for more details, https://ieeexplore.ieee.org/document/9191281.
